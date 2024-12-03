@@ -56,7 +56,7 @@ st.markdown('Prozentualer Anteil der Nettoeinfuhren an der verfügbaren Bruttoen
 selected_countries = st.multiselect(
     'Wähle Länder aus:', 
     df_melted['Country'].unique(), 
-    default=['Deutschland']
+    default=['Deutschland', 'Frankreich', 'Dänemark']
 )
 
 # Filter die Daten basierend auf der Auswahl
